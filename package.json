@@ -1,0 +1,35 @@
+{
+	"name": "@projectwallace/webhook-push-action",
+	"version": "0.0.0",
+	"private": true,
+	"description": "GitHub Action to new CSS to projectwallace.com",
+	"main": "dist/index.js",
+	"scripts": {
+		"test": "echo 'no tests' && exit 1",
+		"build": "ncc build src/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bartveneman/webhook-push-action.git"
+	},
+	"keywords": [],
+	"author": "Bart Veneman",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/bartveneman/webhook-push-action/issues"
+	},
+	"homepage": "https://github.com/bartveneman/webhook-push-action#readme",
+	"devDependencies": {
+		"@actions/core": "^1.2.3",
+		"@zeit/ncc": "^0.22.0",
+		"got": "^10.7.0"
+	},
+	"prettier": {
+		"trailingComma": "es5",
+		"bracketSpacing": true,
+		"arrowParens": "always",
+		"semi": false,
+		"useTabs": true,
+		"singleQuote": true
+	}
+}
