@@ -16,7 +16,7 @@ This GitHub actions posts your CSS to [projectwallace.com](https://www.projectwa
 ### Example
 
 ```yaml
-name: CSS Workflow
+name: Auto-update CSS at projectwallace.com
 
 on:
   push:
