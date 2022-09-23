@@ -20,7 +20,7 @@
 	},
 	"homepage": "https://github.com/bartveneman/webhook-push-action#readme",
 	"devDependencies": {
-		"@actions/core": "^1.2.6",
+		"@actions/core": "^1.9.1",
 		"@zeit/ncc": "^0.22.0",
 		"got": "^10.7.0"
 	},
