@@ -4648,6 +4648,7 @@ async function run() {
 				headers: {
 					'Content-Type': 'text/plain',
 					Accept: 'application/json',
+					'User-Agent': 'Project Wallace Push CSS (via GitHub Action)'
 				},
 				body: css,
 			}
