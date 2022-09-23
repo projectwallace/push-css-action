@@ -12,11 +12,11 @@ async function run() {
 
 		// POST CSS to projectwallace.com to update the analytics
 		await got(
-			`https://www.projectwallace.com/webhooks/v1/imports?token=${webhookToken}`,
+			`https://www.projectwallace.com/api/webhooks/v2/imports?token=${webhookToken}`,
 			{
 				method: 'post',
 				headers: {
-					'Content-Type': 'text/css',
+					'Content-Type': 'text/plain',
 					Accept: 'application/json',
 				},
 				body: css,
